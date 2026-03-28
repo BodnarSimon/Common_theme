@@ -1,22 +1,16 @@
 :root {
-    --primary: #0A84FF;
-    --secondary: #A3FF00;
-    --background: #F5F7FA;
-    --dark: #1C1C1E;
+    --primary: #0A84FF;      /* Elektromos kék */
+    --secondary: #A3FF00;    /* Lime zöld */
+    --background: #F5F7FA;   /* Világos szürke */
+    --dark: #1C1C1E;         /* Sötét grafit */
 }
-
-/* A site-ek saját színsémát adhatnak meg:
-   :root {
-       --primary: #ff0000;
-       --secondary: #00ff00;
-   }
-*/
 
 body {
     background-color: var(--background);
     color: var(--dark);
 }
 
+/* Hero section */
 .ev-hero {
     background: linear-gradient(135deg, var(--primary), #0056b3);
     color: white;
